@@ -31,7 +31,6 @@ sh bootstrap
 
 %{_sysconfdir}/%{name}
 %{_bindir}/ros
-%{_libdir}/debug/%{_bindir}/ros-*.debug
 %{_mandir}/man1/ros*
 
 %clean
