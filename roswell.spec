@@ -18,7 +18,6 @@ Roswell is a Lisp implementation installer/manager, launcher, and much more! It 
 
 %prep
 %setup -q
-cd %{name}-%{version}
 sh bootstrap
 
 %build
