@@ -29,13 +29,10 @@ sh bootstrap
 
 %files 
 
-# %doc *.md *.txt
-# %{_bindir}/*
-# %{_includedir}/%{name}
-# %{_includedir}/%{name}.h
-# %{_libdir}/lib%{name}.*
-# %{_libdir}/pkgconfig/%{name}.pc
-# %{_mandir}/man1/*
+%{_sysconfdir}/%{name}
+%{_bindir}/ros
+%{_libdir}/debug/%{_bindir}/ros-*.debug
+%{_mandir}/man1/ros*
 
 %clean
 rm -rf $RPM_BUILD_ROOT
