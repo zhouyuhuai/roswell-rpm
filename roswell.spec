@@ -17,9 +17,9 @@ BuildRequires: zlib-devel
 Roswell is a Lisp implementation installer/manager, launcher, and much more! It started as a command-line tool with the aim to make installing and managing Common Lisp implementations really simple and easy.
 
 %prep
+%setup -q
 cd %{name}-%{version}
 sh bootstrap
-%autosetup
 
 %build
 %make_build
