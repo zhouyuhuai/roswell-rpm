@@ -38,5 +38,5 @@ sh bootstrap
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
-* Thu Dec 20 2022 makefunny <makefunny@outlook.com> - 22.12.14.113
+* Tue Dec 20 2022 makefunny <makefunny@outlook.com> - 22.12.14.113
 - First build
