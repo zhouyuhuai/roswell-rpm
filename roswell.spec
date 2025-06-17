@@ -8,7 +8,11 @@ License: MIT
 Group: Development/Languages
 Source: https://github.com/%{name}/%{name}/archive/refs/tags/v%{version}.tar.gz
 URL: https://github.com/roswell/roswell
+%if 0%{?fedora} == 42
+BuildRequires: gcc14
+%else
 BuildRequires: gcc
+%endif
 BuildRequires: automake
 BuildRequires: libcurl-devel
 BuildRequires: zlib-devel
