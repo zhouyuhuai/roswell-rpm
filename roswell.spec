@@ -2,7 +2,7 @@
 
 Summary: Common Lisp environment setup Utility
 Name: roswell
-Version: 22.12.14.113
+Version: 24.10.115
 Release: 1
 License: MIT
 Group: Development/Languages
@@ -38,5 +38,6 @@ sh bootstrap
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+* Tue Jun 17 2025 makefunny <makefunny@outlook.com> - 24.10.115
 * Tue Dec 20 2022 makefunny <makefunny@outlook.com> - 22.12.14.113
 - First build
