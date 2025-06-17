@@ -26,6 +26,9 @@ Roswell is a Lisp implementation installer/manager, launcher, and much more! It 
 sh bootstrap
 
 %build
+%if 0%{?fedora} == 42
+export CC=/usr/bin/gcc14
+%endif
 %configure
 %make_build
 
