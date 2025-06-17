@@ -27,7 +27,7 @@ sh bootstrap
 
 %build
 %if 0%{?fedora} == 42
-export CC=$(which gcc14)
+export CC=$(which gcc)
 %endif
 %configure
 %make_build
